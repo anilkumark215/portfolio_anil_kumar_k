@@ -32,6 +32,8 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import junit5logo  from './assets/tech_logo/Junit5.jpg';
+import hibernatelogo from './assets/tech_logo/hibernate.jpg';
 
 // Experience Section Logo's
 //import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -82,7 +84,10 @@ export const SkillsInfo = [
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      //{ name: 'PostgreSQL', logo: postgreLogo },
+      {name : 'junit5' , logo:junit5logo},
+      {name: 'hibernatelogo', logo: hibernatelogo},
+
     ],
   },
   {
@@ -104,7 +109,7 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
+    //  { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
      // { name: 'Figma', logo: figmaLogo },
