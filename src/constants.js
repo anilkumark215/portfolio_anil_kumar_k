@@ -55,8 +55,8 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
-import SUBYLogo from './assets/work_logo/SUBY';
-import welthLogo from './assets/work_logo/welth';
+import SUBYLogo from './assets/work_logo/SUBY.png';
+import welthLogo from './assets/work_logo/welth.png';
 
 
 export const SkillsInfo = [
