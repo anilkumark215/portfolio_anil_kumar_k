@@ -226,7 +226,7 @@ export const SkillsInfo = [
       title: "Welth (AI Finance Platform)",
       description:"Built a Full Stack AI Finance Platform using Next.js, Tailwind, Prisma, and Shadcn UI, integrating Gemini AI for intelligent financial insights.Implemented secure authentication, real-time data handling, and responsive UI to deliver a seamless user experience.",
       image: welthLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+      tags: [" Next.js", "ReactJs","Tailwind", "Prisma", "Shadcn UI","inngest","Gemini AI"],
       github: "https://github.com/anilkumark215/Welth-AI-Financial-Platform--Full-stack",
       webapp: "https://welth-ai-financial-platform-full-st-pi.vercel.app/",
     },
