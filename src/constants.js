@@ -50,11 +50,13 @@ import clgexamguideLogo from './assets/work_logo/clgexamguide.png';
 import docPatLogo from './assets/work_logo/docPat.png';
 import sotingLogo from './assets/work_logo/Sorting.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
+// import npmLogo from './assets/work_logo/npm.png';
 import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import SUBYLogo from './assets/work_logo/SUBY';
+import welthLogo from './assets/work_logo/welth';
 
 
 export const SkillsInfo = [
@@ -214,7 +216,7 @@ export const SkillsInfo = [
       title: "SUBY – MERN Stack Food Delivery App",
       description:
         "Developed a Swiggy-like food delivery web app using MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented role-based access for customers and vendors, enabling vendors to manage their own restaurants, menus, and orders Added features like cart, order tracking, and admin dashboard. Ensured secure payments and real-time order status updates using Socket.io.",
-      image: SUBY,
+      image: SUBYLogo,
       tags: ["MongoDB","EXPRESS.JS", "React JS", "Node.js"],
       github: "https://github.com/anilkumark215/Swiggy_Clone_React",
       webapp: "https://swiggy-clone-react-ten.vercel.app/",
@@ -223,7 +225,7 @@ export const SkillsInfo = [
       id: 1,
       title: "Welth (AI Finance Platform)",
       description:"Built a Full Stack AI Finance Platform using Next.js, Tailwind, Prisma, and Shadcn UI, integrating Gemini AI for intelligent financial insights.Implemented secure authentication, real-time data handling, and responsive UI to deliver a seamless user experience.",
-      image: welth,
+      image: welthLogo,
       tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
       github: "https://github.com/anilkumark215/Welth-AI-Financial-Platform--Full-stack",
       webapp: "https://welth-ai-financial-platform-full-st-pi.vercel.app/",
