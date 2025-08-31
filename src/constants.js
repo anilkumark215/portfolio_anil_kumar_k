@@ -79,12 +79,12 @@ export const SkillsInfo = [
     title: 'Backend',
     skills: [
       { name: 'Springboot', logo: springbootLogo },
-     // { name: 'Node JS', logo: nodejsLogo },
-      //{ name: 'Express JS', logo: expressjsLogo },
+      { name: 'Node JS', logo: nodejsLogo },
+      { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
-      //{ name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'PostgreSQL', logo: postgreLogo },
       {name : 'junit5' , logo:junit5logo},
       {name: 'hibernatelogo', logo: hibernatelogo},
 
@@ -147,10 +147,10 @@ export const SkillsInfo = [
       date: "August 2023 - September 2023",
       desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
       skills: [
-       // "ReactJS",
-        //"Redux",
+        "ReactJS",
+        "Redux",
         "JavaScript",
-        //"Tailwind CSS",
+        "Tailwind CSS",
         "HTML",
         "CSS",
         "SQL",
@@ -208,8 +208,28 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    {
+
+      {
       id: 0,
+      title: "SUBY – MERN Stack Food Delivery App",
+      description:
+        "Developed a Swiggy-like food delivery web app using MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented role-based access for customers and vendors, enabling vendors to manage their own restaurants, menus, and orders Added features like cart, order tracking, and admin dashboard. Ensured secure payments and real-time order status updates using Socket.io.",
+      image: SUBY,
+      tags: ["MongoDB","EXPRESS.JS", "React JS", "Node.js"],
+      github: "https://github.com/anilkumark215/Swiggy_Clone_React",
+      webapp: "https://swiggy-clone-react-ten.vercel.app/",
+    },
+    {
+      id: 1,
+      title: "Welth (AI Finance Platform)",
+      description:"Built a Full Stack AI Finance Platform using Next.js, Tailwind, Prisma, and Shadcn UI, integrating Gemini AI for intelligent financial insights.Implemented secure authentication, real-time data handling, and responsive UI to deliver a seamless user experience.",
+      image: welth,
+      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+      github: "https://github.com/anilkumark215/Welth-AI-Financial-Platform--Full-stack",
+      webapp: "https://welth-ai-financial-platform-full-st-pi.vercel.app/",
+    },
+    {
+      id: 2,
       title: " GUIDE-FOR-COLLEGE-EXAM-WEBSITE-MASTER",
       description:
       "Developed an online platform using Java, HTML, CSS, and JavaScript with a centralized MySQL database, enabling students to access previous exam papers via a user-friendly searchable interface improving usage and retrieval speed.",
@@ -219,7 +239,7 @@ export const SkillsInfo = [
       webapp: "https://guide-for-college-exam-website-master.netlify.app/?",
     },
     {
-      id: 1,
+      id: 3,
       title: "DOCTOR-PATIENT-PORTAL",
       description:
       " Developed an advanced online portal in Java leveraging JSP and Servlets to streamline patient engagement through features like real-time appointment bookings; ensured reliability of service operations via comprehensive JUnit5 test coverage.",
@@ -229,7 +249,7 @@ export const SkillsInfo = [
       webapp: "https://anilkumark215.github.io/DOCTOR-PATIENT-PORTAL/",
     },
     {
-      id: 2,
+      id: 4,
       title: "SORTING VISUALIZER",
       description:
       "Designed a web app to visualize sorting algorithms like Bubble,Merge,and QuickSort with animations and complexity visualization. Engineered unique functionalities allowing end-users to select from five different sortingalgorithms effort lessly while fine tuning animation speed supto three times faster than default",
@@ -300,3 +320,5 @@ export const SkillsInfo = [
     },
     */
   ];  
+
+  
