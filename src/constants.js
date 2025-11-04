@@ -232,6 +232,16 @@ export const SkillsInfo = [
     },
     {
       id: 2,
+      title: "DOCTOR-PATIENT-PORTAL",
+      description:
+      " Developed an advanced online portal in Java leveraging JSP and Servlets to streamline patient engagement through features like real-time appointment bookings; ensured reliability of service operations via comprehensive JUnit5 test coverage.",
+      image: docPatLogo,
+      tags: ["Java", "JSP", "SERVLET", "MySQL", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/anilkumark215/DOCTOR-PATIENT-PORTAL",
+      webapp: "https://doctor-patient-portal-new-2025.onrender.com",
+    },
+    {
+      id: 3,
       title: " GUIDE-FOR-COLLEGE-EXAM-WEBSITE-MASTER",
       description:
       "Developed an online platform using Java, HTML, CSS, and JavaScript with a centralized MySQL database, enabling students to access previous exam papers via a user-friendly searchable interface improving usage and retrieval speed.",
@@ -240,16 +250,7 @@ export const SkillsInfo = [
       github : "https://github.com/anilkumark215",
       webapp: "https://guide-for-college-exam-website-master.netlify.app/?",
     },
-    {
-      id: 3,
-      title: "DOCTOR-PATIENT-PORTAL",
-      description:
-      " Developed an advanced online portal in Java leveraging JSP and Servlets to streamline patient engagement through features like real-time appointment bookings; ensured reliability of service operations via comprehensive JUnit5 test coverage.",
-      image: docPatLogo,
-      tags: ["Java", "JSP", "SERVLET", "MySQL", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/anilkumark215/DOCTOR-PATIENT-PORTAL",
-      webapp: "https://anilkumark215.github.io/DOCTOR-PATIENT-PORTAL/",
-    },
+    
     {
       id: 4,
       title: "SORTING VISUALIZER",
