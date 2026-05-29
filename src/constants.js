@@ -39,6 +39,7 @@ import hibernatelogo from './assets/tech_logo/hibernate.jpg';
 //import webverseLogo from './assets/company_logo/webverse_logo.png';
 import bharat_internLogo from './assets/company_logo/bharat_intern.jpeg';
 import codesoft from './assets/company_logo/codesoft.png';
+import DureTechLogo from './assets/company_logo/DureTechLogo.jpg';
 
 // Education Section Logo's
 import SBTETLogo from './assets/education_logo/sbtet-logo.png';
@@ -141,8 +142,33 @@ export const SkillsInfo = [
       ],
     },
      */
+
     {
       id: 0,
+      img: DureTechLogo,
+      role: "Software Engineer Intern",
+      company: "Dure Technologies",
+      date: "Jan 2026 - present 2026",
+      desc:  `• Worked on developing and maintaining RESTful APIs using Java and Spring Boot.\n
+• Optimized SQL queries and improved API response time by 30%.
+• Implemented input validation and exception handling.
+• Resolved backend issues by debugging request lifecycle flows.`,
+      skills: [
+        "Java",
+        "Spring Boot",
+        "MongoDB",
+        "Postgres",
+        "RestAPI's",
+        "ReactJS",
+        "Redux",
+        "JavaScript",
+        "Tailwind CSS",
+        "HTML",
+        "CSS"
+      ],
+    },
+    {
+      id: 1,
       img: bharat_internLogo,
       role: "Web Developer Intern",
       company: "Bharat Intern",
@@ -159,7 +185,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: codesoft,
       role: "Java Intern",
       company: "CodeSoft",

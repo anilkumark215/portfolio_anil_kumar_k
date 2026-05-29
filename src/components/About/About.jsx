@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/newcrop.jpg'
+import profileImage from '../../assets/linkedin profile.jpeg'
 
 const About = () => {
   return (
@@ -27,10 +27,10 @@ const About = () => {
                 words={[
 
                   'Fullstack Developer',
-                  'Frontend Developer',
                   'Backend Developer',
-                  'App Developer',
-                  'UI/UX Designer',
+                  'Frontend Developer',
+                  // 'App Developer',
+                  // 'UI/UX Designer',
                   'Coder',
                 ]}
                 loop={0}
@@ -44,16 +44,18 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a recent Information Technology graduate passionate about full stack development.
-            Skilled in Java, React, Spring Boot, and building user-friendly web apps.
-            I have built projects like Sorting Visualizer, Instagram Clone, and Doctor-Patient Portal.
-            I am looking for software development roles to learn, grow, and build impactful solutions.
+            Java Backend Developer skilled in Spring Boot, REST APIs, Hibernate, and MongoDB.
+            Currently working as a SDE Intern at Dure Technologies, building scalable backend solutions.
+            Strong foundation in Data Structures & Algorithms, OOPs, DBMS, and full-stack development.
+            Passionate about solving real-world problems and continuously learning modern technologies.
+
+            Writing code for saving lives.
 
 
           </p>
           {/*Resume Button*/}
           <a
-            href="https://drive.google.com/file/d/1EA-aJqK1Iv1BWD0TIdL5_Y0P1r8h8vpr/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1DBujfCqqLH_sPq6hS6xf9DVTVAE4VOfi/view?usp=sharing"
             target=''
             rel='noopener noreferrer'
             className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 scale-105'
