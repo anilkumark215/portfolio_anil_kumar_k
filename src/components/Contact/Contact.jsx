@@ -80,14 +80,14 @@ const Contact = () => {
       📧 kavali.anil.dev@gmail.com
     </a>
 
-    <a
-//   href="https://mail.google.com/mail/?view=cm&fs=1&to=kavali.anil.dev@gmail.com"
-//   target="_blank"
-//   rel="noopener noreferrer"
-//   className="hover:text-purple-400"
-// >
-//   📧 kavali.anil.dev@gmail.com
-// </a>
+    {/* <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=kavali.anil.dev@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-purple-400"
+>
+  📧 kavali.anil.dev@gmail.com
+</a> */}
 
     <a
       href="tel:+919573303129"
