@@ -65,7 +65,41 @@ const Contact = () => {
       </div>
 
       {/* Contact Form */}
-      <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700">
+      {/* <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700"> */}
+      {/* Contact Details */}
+<div className="mb-8 text-center">
+  <h3 className="text-2xl font-semibold text-white mb-4">
+    Get In Touch
+  </h3>
+
+  <div className="flex flex-col gap-3 text-gray-300">
+    {/* <a
+      href="mailto:kavali.anil.dev@gmail.com"
+      className="hover:text-purple-400 transition"
+    >
+      📧 kavali.anil.dev@gmail.com
+    </a> */}
+
+    <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=kavali.anil.dev@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-purple-400"
+>
+  📧 kavali.anil.dev@gmail.com
+</a>
+
+    <a
+      href="tel:+919573303129"
+      className="hover:text-purple-400 transition"
+    >
+      📞 +91 9573303129
+    </a>
+  </div>
+</div>
+
+{/* Contact Form */}
+<div className="mt-4 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700">
         <h3 className="text-xl font-semibold text-white text-center">
           Connect With Me <span className="ml-1">🚀</span>
         </h3>

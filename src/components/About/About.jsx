@@ -44,14 +44,10 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Java Backend Developer skilled in Spring Boot, REST APIs, Hibernate, and MongoDB.
-            Currently working as a SDE Intern at Dure Technologies, building scalable backend solutions.
-            Strong foundation in Data Structures & Algorithms, OOPs, DBMS, and full-stack development.
-            Passionate about solving real-world problems and continuously learning modern technologies.
-
-            Writing code for saving lives.
-
-
+            <div>I'm Anil — a Software Engineer specializing in Java and Spring Boot.</div>
+            <div>Building APIs and backend solutions for healthcare and enterprise platforms across 40+ countries.</div>
+            <div>Currently working as an SDE Intern at Dure Technologies.</div>
+            <div>Passionate about clean code, problem-solving, and continuous learning.</div>
           </p>
           {/*Resume Button*/}
           <a
