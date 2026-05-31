@@ -72,7 +72,7 @@ const Contact = () => {
     Get In Touch
   </h3>
 
-  <div className="flex flex-col gap-3 text-gray-300">
+  {/* <div className="flex flex-col gap-3 text-gray-300">
     <a
       href="mailto:kavali.anil.dev@gmail.com"
       className="hover:text-purple-400 transition"
@@ -80,22 +80,39 @@ const Contact = () => {
       📧 kavali.anil.dev@gmail.com
     </a>
 
-    {/* <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=kavali.anil.dev@gmail.com"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="hover:text-purple-400"
->
-  📧 kavali.anil.dev@gmail.com
-</a> */}
-
     <a
       href="tel:+919573303129"
       className="hover:text-purple-400 transition"
     >
       📞 +91 9573303129
     </a>
-  </div>
+  </div> */}
+
+  <div className="w-full max-w-md mb-8 flex flex-col gap-4">
+
+  {/* Email Box */}
+  <a
+    href="mailto:kavali.anil.dev@gmail.com"
+    className="bg-[#0d081f] p-4 rounded-lg shadow-lg border border-gray-700 hover:border-purple-500 transition block"
+  >
+    <div className="text-sm text-gray-400 mb-1">Email</div>
+    <div className="text-white font-medium">
+      📧 kavali.anil.dev@gmail.com
+    </div>
+  </a>
+
+  {/* Phone Box */}
+  <a
+    href="tel:+919573303129"
+    className="bg-[#0d081f] p-4 rounded-lg shadow-lg border border-gray-700 hover:border-purple-500 transition block"
+  >
+    <div className="text-sm text-gray-400 mb-1">Phone</div>
+    <div className="text-white font-medium">
+      📞 +91 9573303129
+    </div>
+  </a>
+
+</div>
 </div>
 
 {/* Contact Form */}
