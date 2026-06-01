@@ -58,6 +58,8 @@ import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import SUBYLogo from './assets/work_logo/SUBY.png';
 import welthLogo from './assets/work_logo/welth.png';
+import imonitor from './assets/work_logo/IMonitor.png';
+import unitaid from './assets/work_logo/Unitaid.png';
 
 
 export const SkillsInfo = [
@@ -237,8 +239,38 @@ export const SkillsInfo = [
   
   export const projects = [
 
-      {
+    {
       id: 0,
+      title: "Monitor – Healthcare Monitoring Program Management Platform",
+      description:
+      `Used by Ministries of Health across 48+ countries for healthcare program monitoring and management.
+◦ Enabled real-time data collection, monitoring, and reporting for public health initiatives, field operations, audits, and
+compliance activities.
+◦ Provided centralized dashboards, analytics, role-based access control, and workflow management.
+◦ Supported government stakeholders in making data-driven decisions and improving healthcare outcomes.`,
+      image: imonitor,
+      tags: ["Java","Spring Boot", "MongoDB", "Postgresql","REST API's"],
+      github: "",
+      webapp: "https://v1.nextgen.imonitorplus.com/dashboard/login",
+    },
+
+    {
+      id: 2,
+      title: "Unitaid – TB Program Management Monitoring Platform",
+      description:
+      `◦ Used by Ministries of Health across 20+ countries to support Tuberculosis (TB) program management and monitoring.
+◦ Enabled secure collection, management, and analysis of TB-related healthcare data through centralized dashboards and
+reporting tools.
+◦ Provided performance tracking, analytics, role-based access, and real-time visibility into program outcomes.
+◦ Improved operational transparency and supported data-driven decision-making for national TB control initiatives`,
+      image: unitaid,
+      tags: ["Java","Spring Boot", "postgres", "ReactJS"],
+      github: "https://github.com/anilkumark215/Swiggy_Clone_React",
+      webapp: "https://swiggy-clone-react-ten.vercel.app/",
+    },
+
+      {
+      id: 3,
       title: "SUBY – MERN Stack Food Delivery App",
       description:
         "Developed a Swiggy-like food delivery web app using MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented role-based access for customers and vendors, enabling vendors to manage their own restaurants, menus, and orders Added features like cart, order tracking, and admin dashboard. Ensured secure payments and real-time order status updates using Socket.io.",
@@ -248,7 +280,7 @@ export const SkillsInfo = [
       webapp: "https://swiggy-clone-react-ten.vercel.app/",
     },
     {
-      id: 1,
+      id: 4,
       title: "Welth (AI Finance Platform)",
       description:"Built a Full Stack AI Finance Platform using Next.js, Tailwind, Prisma, and Shadcn UI, integrating Gemini AI for intelligent financial insights.Implemented secure authentication, real-time data handling, and responsive UI to deliver a seamless user experience.",
       image: welthLogo,
@@ -257,7 +289,7 @@ export const SkillsInfo = [
       webapp: "https://welth-ai-financial-platform-full-st-pi.vercel.app/",
     },
     {
-      id: 2,
+      id: 5,
       title: "DOCTOR-PATIENT-PORTAL",
       description:
       " Developed an advanced online portal in Java leveraging JSP and Servlets to streamline patient engagement through features like real-time appointment bookings; ensured reliability of service operations via comprehensive JUnit5 test coverage.",
@@ -267,7 +299,7 @@ export const SkillsInfo = [
       webapp: "https://doctor-patient-portal-new-2025.onrender.com",
     },
     {
-      id: 3,
+      id: 6,
       title: " GUIDE-FOR-COLLEGE-EXAM-WEBSITE-MASTER",
       description:
       "Developed an online platform using Java, HTML, CSS, and JavaScript with a centralized MySQL database, enabling students to access previous exam papers via a user-friendly searchable interface improving usage and retrieval speed.",
@@ -278,7 +310,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 4,
+      id: 7,
       title: "SORTING VISUALIZER",
       description:
       "Designed a web app to visualize sorting algorithms like Bubble,Merge,and QuickSort with animations and complexity visualization. Engineered unique functionalities allowing end-users to select from five different sortingalgorithms effort lessly while fine tuning animation speed supto three times faster than default",
