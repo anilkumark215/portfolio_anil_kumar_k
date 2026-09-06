@@ -34,6 +34,9 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 import junit5logo  from './assets/tech_logo/Junit5.jpg';
 import hibernatelogo from './assets/tech_logo/hibernate.jpg';
+import springai from './assets/tech_logo/spring AI.jpg';
+import rag from './assets/tech_logo/RAG.jpg'
+
 
 // Experience Section Logo's
 //import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -60,6 +63,7 @@ import SUBYLogo from './assets/work_logo/SUBY.png';
 import welthLogo from './assets/work_logo/welth.png';
 import imonitor from './assets/work_logo/IMonitor.png';
 import unitaid from './assets/work_logo/Unitaid.png';
+import sde from './assets/work_logo/sde.png';
 
 
 export const SkillsInfo = [
@@ -84,14 +88,16 @@ export const SkillsInfo = [
     title: 'Backend',
     skills: [
       { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
+      { name: 'Spring AI', logo: springai },
+      { name: 'RAG', logo: rag },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
+    
       { name: 'PostgreSQL', logo: postgreLogo },
       {name : 'junit5' , logo:junit5logo},
-      {name: 'hibernatelogo', logo: hibernatelogo},
+      {name: 'hibernate', logo: hibernatelogo},
+      { name: 'Node JS', logo: nodejsLogo },
+      { name: 'Express JS', logo: expressjsLogo },
 
     ],
   },
@@ -148,7 +154,7 @@ export const SkillsInfo = [
     {
       id: 0,
       img: DureTechLogo,
-      role: "Software Engineer Intern",
+      role: "Associate Software Engineer",
       company: "Dure Technologies",
       date: "Jan 2026 - present 2026",
       desc:  `• Worked on developing and maintaining RESTful APIs using Java and Spring Boot.\n
@@ -226,21 +232,38 @@ export const SkillsInfo = [
       desc: "I completed my Diploma in Electrical and Electronics Engineering  from Government Polytechnic college, Mahabubnagar, under the SBTET board, where I studied Physics, Chemistry, and Mathematics (PCM) with Electrical and Electronics Engg.",
       degree: "Diploma(XII) - Electrical and Electronics Engg",
     },
-    {
-      id: 3,
-      img: BSELogo,
-      school: "Zilla Parishad High School, Renivatla",
-      date: "Jun 2018 - May 2019",
-      grade: "85%",
-      desc: "I completed my class 10 education from Zilla Parishad High School, Renivatla, under the SBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
-      degree: "SBSE(X), Physics, Chemistry, and Mathematics ,SOCIAL (PCM)",
-    },
+    // {
+    //   id: 3,
+    //   img: BSELogo,
+    //   school: "Zilla Parishad High School, Renivatla",
+    //   date: "Jun 2018 - May 2019",
+    //   grade: "85%",
+    //   desc: "I completed my class 10 education from Zilla Parishad High School, Renivatla, under the SBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
+    //   degree: "SBSE(X), Physics, Chemistry, and Mathematics ,SOCIAL (PCM)",
+    // },
   ];
   
   export const projects = [
 
+    
     {
       id: 0,
+      title: "SDE Internships & Jobs — Full-Stack SaaS Job Portal ",
+      description:
+      `Independently designed and deployed a production-grade SaaS job portal from scratch, used by real users,
+enabling SDE students and graduates to discover and apply for internships and jobs.
+◦ Built full-stack architecture with React.js frontend (Vercel), Node.js/Express.js backend (Render) and Post-
+greSQL database (Supabase) with SSL-secured cloud connectivity
+◦ Designed relational database schema with 6 tables, 5 stored procedures, custom ENUMs and 5 performance
+indexes in PostgreSQL.`,
+      image: sde,
+      tags: ["React.js", "Node.js", "Express.js", "PostgreSQL (Supabase)", "JWT", "Razorpay", "AWS S3", "REST API's"],
+      github: "https://github.com/anilkumark215/sdejobs-backend",
+      webapp: "https://sdejobs-frontend.vercel.app/",
+    },
+
+    {
+      id: 1,
       title: "Monitor – Healthcare Monitoring Program Management Platform",
       description:
       `Used by Ministries of Health across 48+ countries for healthcare program monitoring and management.
@@ -319,67 +342,7 @@ reporting tools.
       github: "https://github.com/anilkumark215",
       webapp: "https://sorting-visualizer-algo-anil.netlify.app/",
     },
-   /* {
-      id: 3,
-      title: "Email Validator NPM Package",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
-    */
+   
   ];  
 
   

@@ -44,14 +44,14 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            <div>I'm Anil — a Software Engineer specializing in Java and Spring Boot.</div>
+            <div>I'm Anil — a Software Engineer specializing in Java and Spring Boot Spring AI & RAG.</div>
             <div>Building APIs and backend solutions for healthcare and enterprise platforms across 40+ countries.</div>
-            <div>Currently working as an SDE Intern at Dure Technologies.</div>
+            <div>Currently working as an Associate Software Engineer at Dure Technologies.</div>
             <div>Passionate about clean code, problem-solving, and continuous learning.</div>
           </p>
           {/*Resume Button*/}
           <a
-            href="https://drive.google.com/file/d/11hbsbFAigpq9JiCI9L7alkXiVZ7Ab0yi/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Sm4d7mc0IT-sDS_00_0g6SST-zKA_GW4/view?usp=sharing"
             target=''
             rel='noopener noreferrer'
             className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 scale-105'
